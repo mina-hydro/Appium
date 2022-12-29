@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class VerticesPage {
-    private By MAIN_PHOTO = By.xpath("//android.widget.FrameLayout[@resource-id="android:id/content"]//android.view.View");
+    private By MAIN_PHOTO = By.xpath("//android.widget.FrameLayout[@resource-id=\"android:id/content\"]//android.view.View");
     private WebDriver driver;
     public VerticesPage(WebDriver driver) {
         this.driver = driver;
