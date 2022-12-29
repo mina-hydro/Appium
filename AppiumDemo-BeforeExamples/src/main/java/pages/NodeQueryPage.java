@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class NodeQueryPage {
-    private By CHECK_BOX = By.xpath("(//android.widget.CheckBox[@resource-id="io.appium.android.apis:id/tasklist_finished"])[3]");
+    private By CHECK_BOX = By.xpath("(//android.widget.CheckBox[@resource-id=\"io.appium.android.apis:id/tasklist_finished\"])[3]");
     private WebDriver driver;
     public NodeQueryPage(WebDriver driver) {
         this.driver = driver;
